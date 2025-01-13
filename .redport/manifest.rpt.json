@@ -1,0 +1,9 @@
+{
+  "upstream": {
+    "type": "cookiecutter-template",
+    "source": "https://github.com/claui/cookiecutter-shell-package.git",
+    "commit": "c906c2c71f52ee1697983e335a33e21541d7f553",
+    "replay": "cookiecutter_replay/cookiecutter-shell-package.json",
+    "patches": []
+  }
+}

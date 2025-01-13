@@ -1,0 +1,36 @@
+{
+  "cookiecutter": {
+    "project_title": "Jollyson",
+    "project_slug": "jollyson",
+    "project_description": "Decodes Balatro files (profile, settings, saved games) to JSON",
+    "first_executable_name": "jollyson",
+    "project_version": "0.1.0",
+    "project_license": "Apache-2.0",
+    "author_full_name": "Claudia Pellegrino",
+    "author_email": "clau@tiqua.de",
+    "copyright_holder_full_name": "Claudia Pellegrino",
+    "github_username": "claui",
+    "_extensions": [
+      "local_extensions.CustomFunctionsExtension"
+    ],
+    "_template": "shell",
+    "_output_dir": "REDACTED",
+    "_repo_dir": "REDACTED",
+    "_checkout": null
+  },
+  "_cookiecutter": {
+    "project_title": "",
+    "project_slug": "{{ cookiecutter.project_title.lower().replace(' ', '-') }}",
+    "project_description": "",
+    "first_executable_name": "{{ cookiecutter.project_slug }}",
+    "project_version": "0.1.0",
+    "project_license": [
+      "Apache-2.0",
+      "Proprietary"
+    ],
+    "author_full_name": "Claudia Pellegrino",
+    "author_email": "clau@tiqua.de",
+    "copyright_holder_full_name": "{{ cookiecutter.author_full_name }}",
+    "github_username": "claui"
+  }
+}

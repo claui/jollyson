@@ -1,0 +1,1 @@
+export __ZIP_HEADER_HEX='1f 8b 08 00 00 00 00 00 00 00'
