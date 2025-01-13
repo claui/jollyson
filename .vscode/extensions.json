@@ -1,6 +1,8 @@
 {
   "recommendations": [
+    "claui.packaging",
     "davidanson.vscode-markdownlint",
+    "dawidd6.debian-vscode",
     "editorconfig.editorconfig",
     "redhat.vscode-yaml",
     "timonwong.shellcheck"

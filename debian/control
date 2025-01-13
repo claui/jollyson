@@ -1,0 +1,20 @@
+Source: jollyson
+Section: utils
+Priority: optional
+Maintainer: Claudia Pellegrino <clau@tiqua.de>
+Build-Depends: debhelper-compat (= 13), dh-exec, python3-myst-parser, python3-sphinx
+Standards-Version: 4.5.1
+Homepage: https://github.com/claui/jollyson
+Vcs-Browser: https://github.com/claui/jollyson
+Vcs-Git: https://github.com/claui/jollyson.git
+Rules-Requires-Root: no
+
+Package: jollyson
+Architecture: all
+Depends: ${misc:Depends},
+         jq,
+         lua5.4 | lua,
+         lua-cjson,
+         xxd
+Description: Decodes Balatro files (profile, settings, saved games) to JSON
+ This package installs the utility and documentation.

@@ -1,0 +1,8 @@
+#!/usr/bin/dh-exec
+
+# Library files and internal binstubs
+bin/* usr/share/jollyson/bin/
+libexec/* usr/share/jollyson/libexec/
+
+# External binstubs
+debian/local/binstub => usr/bin/jollyson
