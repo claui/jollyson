@@ -1,1 +1,2 @@
-export __ZIP_HEADER_HEX='1f 8b 08 00 00 00 00 00 00 00'
+__PROJECT_ROOT="$(pwd)/$(dirname -- "${BASH_SOURCE[0]}")/.."
+export __PROJECT_ROOT

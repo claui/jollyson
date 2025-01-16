@@ -15,6 +15,6 @@ Depends: ${misc:Depends},
          jq,
          lua5.4 | lua,
          lua-cjson,
-         xxd
+         python3
 Description: Decodes Balatro files (profile, settings, saved games) to JSON
  This package installs the utility and documentation.

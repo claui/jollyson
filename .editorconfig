@@ -30,5 +30,8 @@ indent_size = 2
 indent_size = 2
 trim_trailing_whitespace = false
 
+[*.py]
+indent_size = 4
+
 [*.yml]
 indent_size = 2

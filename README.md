@@ -33,8 +33,7 @@ Make sure the following packages are installed on your system:
 - jq
 - lua
 - The `cson` Lua rock (or the lua-cson system package)
-- xxd
-- zcat (or gunzip)
+- python
 
 ### Installing from the AUR
 
